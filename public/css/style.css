@@ -1,0 +1,1451 @@
+
+
+a, a:hover{
+    text-decoration: none;
+}
+.head-container, .head-logo, .head-container .left, .head-container .right{
+    transition: .7s;
+}
+
+.active{
+    background: #a97e9f;
+}
+.head-container{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.maps{
+    border: 2px solid lightgray;
+    width: 600px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.babi{
+    color: white;
+    transition: .7s;
+}
+.babi:hover{
+    text-decoration: underline;
+    color: white;
+}
+/*test affcihe recherche*/
+.test-fond img{
+    width: 100%;
+    height: 300px;
+}
+
+.affich{
+    background-color: #432740;
+    height: auto;
+}
+.topbar a{
+    margin-right: 15px;
+    color: rgb(238, 234, 234);
+    padding: 8px 5px;
+}
+.right-nav a:hover{
+    background-color: #A97E9F!important;
+}
+.left-nav :first-child{
+    font-family: Candara, 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.left-nav a:hover{
+    color: #B1DA7C;
+}
+.left-nav a{
+    letter-spacing: 1.5px;
+}
+.topbar
+{
+
+    height: 2.375em;/*38px*/
+    font-size: 0.75em;/*12px*/
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head-logo{
+
+    height: 9em;/*130px*/
+    
+    width: 56.25em;/*900px*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.head-nav-maison{
+    background-color: white;
+    border-top: 5px solid #b1da7c;
+    box-shadow: 3px 3px 3px lightgray;
+}
+.head-nav-maison a:hover{
+    color: #b1da7c;
+}
+.nav-bar-top{
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar-top a{
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    letter-spacing: 1.1px;
+    color: #150007;
+}
+
+.dropdown-menu{
+    border: none;
+    box-shadow: none;
+}
+.dropdown-menu.show {
+    top: 35px;
+    left: 11px;   
+    right: initial;
+}
+.dropdown-menu.show a {
+    padding: 3px 10px;
+}
+.dropdown-menu a {
+    font-size: 14px;
+}
+/********MENU***********\*/
+main{
+    
+   margin-top: 155px;
+}
+.Fond{
+    margin-bottom: 0;
+}
+.Fond .img-fluid{
+    height: 518px;
+}
+.recherche{
+    background-color: #432740;
+}
+.formulaire{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulaire select{
+    border-radius: 0;
+    width: 18% !important;   
+}
+.contain{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contain div{
+    height: 500px;
+    border: 1px solid;
+}
+.submit{
+    background-color: #B1DA7C;
+    width: 176px;
+    height: auto;
+    border: 2px solid #B1DA7C;
+    border-radius: 0;
+    color: black;
+    transition: .6s;    
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.submit:hover{
+    color: black;
+    border: 2px solid #B1DA7C;
+    background-color: white;
+}
+/******VILLE ET APPART************/
+.blocus{
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: 580px;
+}   
+.donn{
+    display: flex;
+    flex-flow: row wrap!important;
+    height: auto;
+    justify-content: flex-start!important;
+}
+.index{
+    display: flex;
+    flex-flow: row nowrap!important;
+    height: auto;
+}
+.vm{
+    display: flex;
+    flex-flow: row wrap!important;
+    height: auto;
+}
+.blocus a {
+    color: #432740;
+}
+
+.petit{
+    display: flex;
+    justify-content: flex-start;
+}
+.petit .premier{
+    margin-right: 25px;
+}
+.blocus .premier{
+    
+    width: 404px;
+    box-shadow: 5px 5px 5px rgb(179, 177, 177);
+    padding-bottom: 20px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+.enieme{
+    width: 406px;
+    
+}
+.deuxieme{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/*IMAGE QUI ZOOM*/
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("image/ZOOM/appart1.png");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+.image2{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/ZOOM/appart3.png");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.zoom{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.bien01{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/AUTRE_BIENS/bien01.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+.bien02{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/AUTRE_BIENS/bien02.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+.bien03{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/AUTRE_BIENS/bien03.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+.bien04{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/AUTRE_BIENS/bien04.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+.bien05{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/AUTRE_BIENS/bien05.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+.bien06{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/AUTRE_BIENS/bien06.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+
+.location-01{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/LOCATION/location01.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;   
+}
+.location-02{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/LOCATION/location02.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease; 
+}
+.location-03{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/LOCATION/location03.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;  
+}
+.location-04{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/LOCATION/location04.png");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;  
+}
+.image3{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/ZOOM/villa1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image4{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/ZOOM/villa3.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image5{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa00.png");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image6{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa01.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image7{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa02.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image8{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa03.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image9{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/appart04.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image10{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa05.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image11{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa06.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image12{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa07.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.image13{
+    width: 100%;
+    height: 100%;
+    background-image: url("image/villa_maison/villa08.jpg");
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.description-titre{
+    font-size: 20px;
+    text-align: inherit;
+}
+.description *{
+    margin-left: 10px;
+}
+.description h6{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.description a{
+    display: block;
+    font-size: 20px;
+    padding: 5px 7px;
+    border: 2px solid #432740;
+    text-align: center;
+    color: #432740;
+    text-transform: uppercase;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .7s;
+    margin-top: -10px;  
+}
+.description a:hover{
+    background: #432740;
+    color: white;
+}
+
+.appartement{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    border-bottom: 1px solid rgb(184, 183, 183);;
+    margin-left: auto;
+    margin-right: auto;
+}
+.selection{
+    font-size: 18px;
+    color: #B1DA7C;
+    font-weight: bold;
+    transform: translateX(50px);
+    
+}
+.appart{
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+.appartement img {
+    vertical-align: 0px;
+    margin-right: 15px;
+}
+.appartement h6{
+    transform: translateY(5px);
+    font-size: 18px;
+}
+.appartement a{
+    color: black;
+}
+.appartement a:hover{
+    color: #B1DA7C;
+}
+.about{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 265px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-about{
+    width: 30%;
+    margin-right: 15px;
+
+}
+.about-description{
+    width: 63%;
+}
+.about-social{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.social{
+    margin-top: 200px;
+}
+.social h4{
+    width: 60%;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #c1c1c1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lastcontainer{
+    margin-top: 50px;
+    background-image: url("image/footer-img.jpg")!important;
+    height: 400px;
+}
+.lastcontainer h3{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 2.5em;
+    text-align: center;
+}
+.lastcontainer h3:after, .lastcontainer h3:before {
+    width: 200px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: #000;
+    margin: 0 1%;
+}
+.contains a{
+    widows: 97px;
+    height: 38px;
+}
+.contains nav{
+    margin-bottom: 20px;
+}
+.contains{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bas{
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+.bas div{
+    margin-right: 10px;
+}
+
+.footer{
+    background: #432740;
+}
+.footer p{
+    color: white;
+}
+.footer *{
+    font-size: 14px;
+}
+.navfooter{
+    width: 80%;
+    
+}
+.footerright{
+    width:  auto;
+    height: 100%;
+    
+
+}
+.footerright *{
+    text-align: center;
+}
+
+
+.navfooter p{
+    text-align: center;
+}
+.navfooter a{
+    color: white;
+}
+.navfooter a:hover{
+    color: #B1DA7C;
+}
+/*maison et villa */
+.menu{
+    margin-top: 40px;
+}
+.trouver{
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: candara;
+    width: 80%;
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trouver span{
+    font-weight: bold;
+}
+/*page contact*/
+.conteneur{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 70%;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgb(149, 148, 148);
+}
+.conteneur h3, h4{
+    font-size: 18px;
+    color: #00438b;
+}
+.explication{
+    width: 50%;
+    height: 100%;
+    
+}
+.Formul{
+    padding: 15px 20px;
+    width: 45%;
+    height: 82%;
+    border: 2px solid #B1DA7C;
+}
+.gnbs{
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: black;
+}
+.emplacement{
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.emplacement img{
+    margin-bottom: 25px;
+}
+.envoyer{
+    background: #B1DA7C;
+    border: 2px solid #B1DA7C;
+    color: black;
+    transition: .8s;
+}
+.envoyer:hover{
+    background: white;
+    color: #00438b;
+}
+/*Alert email**/
+.alert-email{
+    margin-top: 70px;
+    width: 80%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.alert-email h3{
+    font-size: 30px;
+    background-color: #432740;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+
+}
+.recevez{
+    font-weight: 400!important;
+    font-size: 14px;
+    text-transform: lowercase!important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+.votre-recherche{
+    background: white!important;
+    border: none!important;
+    color: black!important;
+}
+.searchs{
+    width: 60%;
+    margin-left: 90px;
+}
+.forme{
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 30px;
+}
+.coordone{
+    transform: translateX(25px);
+    font-size: 22px;
+}
+.email-envoyer{
+    margin-top: 100px;
+    width: 140%;
+    height: 42px;
+    background-color: #432740;
+    color: white;
+    border: 1px solid #432740;
+    transition: .7s;
+}
+.email-envoyer:hover{
+    background: white;
+    color: #432740;;
+
+}
+.loi{
+    margin-top: 40px;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loi p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+/*nos services */
+.services{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services h3 {
+    font-family: Helvetica;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #0099CC;
+    border-bottom: 2px dotted;
+}
+.services h5{
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.services-gauches
+{
+    width: 65%;
+    margin-right: 40px;
+}
+.services-gauches .bleu{
+    color: #0099CC;
+}
+.services-droites{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 35%;
+    height: 100%;
+}
+.services-droites .droite-un{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    background-color: rgb(178,25,69);
+    border-bottom-right-radius: 30px;
+}
+.droite-un h6, .droite-deux h6, .droite-trois h6, .droite-quatre h6{
+    font-size: 21px;
+    line-height: 2em;
+    letter-spacing: .1px;
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.droite-un h6::before, .droite-deux h6::before{
+    content: '';
+    background: url(image/icone-proprietaire.png) no-repeat center center;
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+
+    
+
+
+}
+.services-droites h6, .services-droites p{
+    color: white;
+}
+.droite-trois h6::before{
+    content: '';
+    background: url(image/services.png) no-repeat center center;
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    transform: translateY(3px);
+
+
+}
+.droite-quatre h6::before{
+    content: '';
+    background: url(image/contacts.png) no-repeat center center;
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+.services-droites .droite-deux{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f67f00;
+}
+.services-droites .droite-trois{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #0099CC;
+}
+.services-droites .droite-quatre{
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 30px;
+    line-height: 12px;
+    background-color: #aaa288;
+}
+.aici{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.aici-gauche{
+    width: 50%;
+    margin: 0 10px;
+}
+.aici p::before{
+    content: '';
+    background: url(image/bouton.jpg) no-repeat center center;
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+.tel{
+    font-size: 21px;
+}
+.droite-un p, .droite-deux p, .droite-quatre p{
+    padding-left: 20px;
+}
+/****image choisie*****/
+.contenu-image{
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgray;
+}
+.contenu-image figure{
+    width: 70%;
+    height: 520px;
+    background: rgb(241, 241, 241);
+    box-shadow: 5px 5px 12px lightgray;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.contenu-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;  
+}
+.Formul{
+    background: white!important;
+}
+/*media queries */
+@media screen and (max-width: 1560px) {
+ .topbar{
+     height: auto;
+     display: flex;
+     flex-flow: column nowrap;
+ }
+ .topbar nav{
+     margin-bottom: 10px;
+ }
+ .left-nav a{
+     text-align: center;
+ }
+ .head-logo{
+    
+     text-align: center;
+
+    height: auto;/*130px*/
+    
+    width: auto;/*900px*/
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .right-nav{
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.head-container{
+    position: static;
+}
+main{
+    margin-top: 0;
+}
+
+ 
+}
+
+@media screen and (max-width: 1547px){
+    .footerright p{
+        text-align: center
+    }
+}
+
+@media screen and (max-width: 1218px) {
+    .nav-bar-top{
+        width: 90%;
+        font-size: 0.90em;
+    }
+    .link-inverse{
+        font-size: 0.85em;   
+    }
+    
+    .right-nav{
+        width: 97%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    
+}
+/*menu appartement et co */
+@media screen and (max-width: 1250px) {
+    .description p, h6, a{
+        font-size: 0.98em;
+    }
+    .description a{
+        font-size: inherit;
+    }
+}
+
+ @media screen and (max-width: 930px) {
+   .blocus .premier{
+       display: flex;
+       flex-flow: row nowrap;
+       width: auto;
+   }
+   .about *{
+       font-size: 0.98em;
+   }
+   .index, .blocus{
+       display: flex;
+       flex-flow: column nowrap!important;
+   }
+   .deuxieme{
+       width: auto;
+       height: auto;
+   }
+   .description-titre{
+       margin-right: 10px;
+   } 
+ }
+
+ @media screen and (max-width: 930px) {
+    .description p, h6, a{
+        font-size: 0.75em;
+    }
+    .deuxieme{
+        max-height: 155px!important;
+    }
+    .about *{
+        font-size: 0.90em;
+    }
+    footer *{
+        font-size: 0.90em!important;
+    }
+    
+
+ 
+}
+ 
+
+
+
+@media screen and (max-width: 330px) {
+    .description a{
+        font-size: 0.80em;
+        transform: translateX(-10px)!important;
+        
+    } 
+    .deuxieme{
+        min-height: 120px!important;
+    }
+}
+@media screen and (max-width: 470px){
+    .description a {
+        margin-top: 40px;
+        width: 100%;
+        transform: translateX(-90px);
+        min-width: 145px;
+    }
+}
+ /***************************/
+@media screen and (max-width: 1458px) {
+    .formulaire{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1242px) {
+    .formulaire{
+        width: 80%;
+    }
+    .contains{
+        overflow: hidden;
+    }
+    .lastcontainer{
+        height: auto;
+    }
+}
+@media screen and (max-width: 1166px) {
+    .formulaire{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1188px) {
+    .formulaire{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1032px) {
+    .formulaire{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 540px) {
+}
+.about{
+    overflow: hidden;
+}
+/*last-container*/
+@media screen and (max-width: 725px) {
+    .lastcontainer h3{
+        font-size: 1.2em!important;
+    }
+    .lastcontainer h3:after, .lastcontainer h3:before {
+        width: 50px;
+        height: 1px;
+        display: inline-block;
+        vertical-align: middle;
+        content: "";
+        background: #000;
+        margin: 0 1%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .lastcontainer h3{
+        font-size: 1.2em!important;
+    }
+    .lastcontainer h3:after, .lastcontainer h3:before {
+        width: none!important;
+        height: none!important;
+        display: none!important;
+        vertical-align: middle;
+        background: #000;
+        margin: 0 1%;
+    }
+}
+/*****************/
+@media screen and (max-width: 950px) {
+    .lastcontainer h3{
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 995px) {
+    .formulaire{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 995px) {
+    .formulaire select{
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width: 1217px) {
+   
+    .right-nav{
+        width: 97%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .head-logo{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+   
+    .Fond .img-fluid{
+        height: 350px;
+    }
+    .searchs{
+        width: auto;
+        margin-left: 0;
+    }
+    .email-envoyer{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .nav-bar-top{
+        width: 100%;
+        font-size: 0.80em;
+    }
+    .link-inverse{
+        font-size: 0.50em;   
+    }
+    .dropdown-menu.show {
+        width: 8%;
+    }
+    .dropdown-menu a {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 892px) {
+    .topbar{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 730px){
+    .Fond .img-fluid{
+        height: 300px;
+    }
+    .formulaire select{
+        margin-right: 10px;
+    }
+    .form-inline .form-control{
+        width: 120px!important;
+    }
+    .submit{
+        margin-top: 10px;
+    }
+    .researchs{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .form-control, .submit{
+
+        font-size: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .right-nav{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .nav-bar-top{
+        width: 100%;
+        font-size: 0.70em;
+    }
+
+    .dropdown-menu a {
+        font-size: 11px;
+    }
+   
+
+}
+@media screen and (max-width: 603px) {
+    .nav-bar-top{
+        width: 100%;
+        font-size: 0.72em;
+    }
+    .appartement *{
+        font-size: 1em;   
+    }
+
+    .dropdown-menu a {
+        font-size: 10px;
+    }
+    .nav-bar-top{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .nav-bar-top a{
+        margin-right: 5px;
+    }
+
+}
+@media screen and (max-width: 579px) {
+    .nav-bar-top{
+        width: 100%;
+        font-size: 0.70em;
+    }
+    
+
+    .dropdown-menu a {
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width: 424px) {
+    .appartement *{
+        font-size: 0.90em;   
+    }
+    .appartement span{
+        margin-right: 10px;
+    }
+    .appartement{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 305px) {
+    .appartement{
+        width: 100%;
+        flex-flow: column nowrap;  
+    }
+}
+@media screen and (max-width: 405px) {
+    .left-nav{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .Fond .img-fluid{
+        height: 230px;
+    }
+}
+/***footer en bas*/
+
+@media screen and (max-width: 1000px) {
+    .bas{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 644px) {
+    .bas{
+        flex-flow: column;
+        align-items: center;
+    }
+    .footerright{
+        width: auto;
+    }
+}
+/**description image*/
+@media screen and (max-width: 1260px) {
+    .contenu-image{
+        height: auto;
+    }
+    .contenu-image figure{
+        height: auto;
+    }
+    .conteneur{
+        display: flex;
+        flex-flow: column nowrap;
+        height: auto;
+    }
+    .explication{
+        width: 100%;
+        text-align: justify;
+    }
+    .img-formul{
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%;
+    }
+}
+@media screen and (max-width: 740px){
+    .to_center{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 730px){
+    .conteneur *, .emplacement *,.services-gauches *, .services-droites *,.alert-email *{
+        font-size: 0.8rem;
+    }
+    .img-formul h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    .alert-email h3{
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width: 380px){
+    .explication{
+        text-align: left; 
+    }
+}
+/**contact.php*/
+@media screen and (max-width: 1239px){
+    .contact-formulaire{
+        width: 60%!important;
+    }
+}
+@media screen and (max-width: 762px){
+    /*azerty*/
+}
+@media screen and (max-width: 850px){
+    .contact-formulaire{
+        width: 100%!important;
+    }
+    .contact-formulaire h3{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+/*services.php*/
+@media screen and (max-width: 1475px){
+   .services{
+       display: flex;
+       flex-flow: column nowrap;
+   }
+   .services-gauches {
+       width: auto;
+   }
+   .services-droites{
+       width: auto;
+   }
+
+}
+@media screen and (max-width: 500px){
+    .services-droites h6{
+        text-align: center;
+    }
+    
+ }
+ @media screen and (max-width: 420px){
+     .aici{
+         display: flex;
+         flex-flow: column wrap;
+         justify-content: center;
+     }    
+     .aici-gauche {
+
+        width: 50%;
+        margin: 0;
+        width: auto;    
+    }
+}
+@media screen and (min-width: 746px){
+    .image1:hover , .image2:hover, .image3:hover , .image4:hover,.image5:hover, .image6:hover , .image7:hover {
+        transform: scale(1.2);
+    }
+    .image8:hover , .image9:hover, .image10:hover , .image11:hover,.image12:hover, .image13:hover, .zoom:hover{
+        transform: scale(1.2);
+    }
+    .bien01:hover,.bien02:hover, .bien03:hover, .bien04:hover, .bien05:hover, .bien06:hover{
+        transform: scale(1.2);
+    }
+    .location-01:hover,.location-02:hover,.location-03:hover,.location-04:hover{
+        transform: scale(1.2);
+    } 
+
+}
+
+@media screen and (max-width: 746px){
+    .blocus .premier{
+        display:flex;
+        flex-flow: column nowrap;
+
+    }
+    .description a{
+        transform: translateX(0);
+        width: 50%;
+    }
+    .premier *{
+        text-align: center;
+    }
+}
+
+
+
+
+

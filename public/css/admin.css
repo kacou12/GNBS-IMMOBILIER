@@ -1,0 +1,73 @@
+.corps{
+    background: lightgray;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+main{
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 65%;
+    height: 550px;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+.contenu{
+    width: 42%;
+}
+.image{
+    width: 55%;
+}
+h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bleu{
+    margin-top: 30px;
+}
+/*page modifier*/
+.conteneur h3, h4{
+    font-size: 18px;
+    color: #00438b;
+}
+.Formul label{
+    margin-right: 20px;
+}
+.left{
+    padding-bottom: 10px;
+    margin: 20px 10px;
+    border-bottom: 1px solid lightgray;
+}
+.Formul{
+    padding: 15px 20px;
+    width: 60%;
+    height: auto;
+    border: 2px solid #B1DA7C;
+    background: rgb(236, 236, 236);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.Formul p{
+    text-align: center;
+}
+.vert{
+    margin: 20px;
+    text-align: center;
+}
